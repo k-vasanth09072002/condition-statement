@@ -9,33 +9,284 @@
 <body>
     <script>
 
-      let grade=prompt("enter grade")
+      // let grade=prompt("enter grade")
 
-      switch(grade){
-        case "s":
-            document.write("super grade");
-            break;
-        case "a":
-            document.write("exland")
-            break;
+      // switch(grade){
+      //   case "s":
+      //       document.write("super grade");
+      //       break;
+
+      //   case "a":
+      //       document.write("exland")
+      //       break;
          
-         case "b":
-            document.write("pass")
-            break;
+      //    case "b":
+      //       document.write("pass")
+      //       break;
         
-        case "u":
-            document.write("fail")
-            break;
+      //   case "u":
+      //       document.write("fail")
+      //       break;
             
-          default:
-            document.write("unknown")  
-      }
+      //     default:
+      //       document.write("unknown");  
+      // }
+
+
+  //       const daymonth = (month,year)=>{
+  //         switch(month){
+  //           case "jan":case "march":case"may": case"july":case"aug":case"act":case"dec":
+  //           return 31;
+
+  //           case "apr":case"jun": case"sep": case"nov":
+  //             return 30;
+          
+  //           case "feb":
+  //             if(year % 4===0 && (year % 100 !==0 || year % 400 ===0)){
+  //               return 29;
+  //             }
+  //             else{
+  //               return 28;
+  //             }
+  //             default:
+  //               return 'not a month';
+  //           }
+  //       }
+  //  console.log(daymonth("feb",2002));
 
 
 
 
 
 
+      // const days =(month,year)=>{
+
+      //   switch(month){
+      //     case "jan": case "march": case"may":case "july":case "aug":case "aco": case "dec":
+      //       return 31;
+
+      //       case "apral": case "june": case"sep": case "november": 
+      //       return 30;
+
+      //       case "feb":
+
+      //       if(year % 4===0 &&( year % 100 !==0 || year % 100 ===0)){
+      //         return 29;
+
+      //       }
+      //       else{
+      //         return 28;
+      //       }
+      //       default :
+      //       return " not a month";
+      //   }
+      // }
+      // console.log(days,(jan,2000));
+
+
+
+    // let mark=parseInt(prompt("enter"))
+     
+    //        if(mark<25){
+    //         document.write("fail")
+    //        }
+    //        else if(mark>=25 && mark<=45){
+    //         document.write("e")
+    //        }
+    //          else if(mark>45 && mark<=50){
+    //           document.write("d")
+    //          }
+    //          else if(mark>50 && mark<=60){
+    //           document.write("c")
+    //          }
+    //          else if(mark>60 && mark<=80){
+    //           document.write("b")
+    //          }
+    //          else if(mark>80 && mark<=100){
+    //           document.write("a")
+    //          }
+    //          else{
+    //           document.write("not")
+    //          }
+
+
+
+        //  let height=parseInt(prompt("enter your height"));
+
+        //  if(height<150){
+        //   document.write("dwarf")
+        //  }
+        //  else if (height >= 150 && height < 165){
+        //   document.write("avarage");
+        //  }
+        //  else if (height >= 165 && height < 195){
+        //   document.write("tallest");
+        //  }
+        
+        //  else{
+        //   document.write("over height");
+        //  }
+
+      
+
+        //  var dayss=prompt("enter")
+       
+
+        //  switch(new Date().getDay()){
+        //     case 0:
+        //         alert("sunday")
+        //         break;
+             
+        //      case 1:
+        //         alert("monday")
+        //         break;
+               
+        //       case 2:
+        //         alert("tuesday")
+        //         break;
+                
+        //         case 3:
+        //             alert("wednesday")
+        //             break;
+
+        //          case 4:
+        //             alert("thursday")
+        //             break;
+                  
+        //          case 5:
+        //             alert("friday");
+        //             break;
+                    
+        //          case 6:
+        //             alert("saturday");
+        //             break;
+                    
+                  
+                    
+
+        //  }
+
+
+
+
+
+        // let a=parseInt(prompt(" A AGE enter age"));
+        // let b=parseInt(prompt("B AGE enter age"));
+        // let c=parseInt(prompt(" C AGE enter age"));
+        
+        
+        // if(a>b && a<c){
+        //     if(b>c){
+        //         console.log("a older");
+        //         console.log("c younger");
+        //     }
+        //     else{
+        //         console.log("a older");
+        //         console.log("b younger");
+        //     }
+        // }
+        // else if(b>c && b>a){
+        //     if(a>c){
+        //         console.log("b is older");
+        //         console.log("c is younger");
+        //     }
+        //     else{
+        //         console.log("b is older");
+        //         console.log("A is younger");
+
+        //     }
+        // }
+        // else if(c>a && c>b){
+        //     if(b>a){
+        //         console.log("c older");
+        //         console.log("a younger");
+        //     }
+        //     else{
+        //         console.log("c older");
+        //         console.log("b younger");
+        //     }
+        // }
+
+
+        // var name=prompt("enter");
+
+
+        // if((name>="a" && name<="z") || (name>="A" && name<="Z")){
+        //             document.write("aphapet");
+        // }
+        // else if(name>=0){
+        //     document.write("number");
+        // }
+  
+        // else{
+        //     document.write("spacial charactor");
+        // }
+
+
+
+
+
+            var a=parseInt(prompt(" A age enter "))
+            var b=parseInt(prompt(" b age enter "))
+            var c=parseInt(prompt(" c age enter "))
+
+
+
+            if(a>b && a>c){
+                if(b>c){
+                    console.log("a is old")
+                    console.log("c younger")
+                }
+                else{
+                    console.log("a id older")
+                    console.log("b is younger")
+                }
+            }
+            else if(b>a && b>c){
+                if(a<c){
+                    console.log("b is older")
+                    console.log("c is young")
+                }
+                else{
+                    console.log("b is older")
+                    console.log("a younger")
+                }
+            }
+            else if(c>a && c>b){
+                if(b>a){
+                    console.log("c older")
+                    console.log("a younger")
+                }
+                else{
+                    console.log("c older")
+                    console.log("b young")
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //  var value=prompt("enetr values")
+
+
+    //  if((value>="a" && value<="z")||(value>="A" && value<="Z")){
+    //                  document.write("alpahabt")
+    //  }
+    //  else if(value>=0){
+    //     document.write("number")
+    //  }
+    //  else{
+    //     document.write("special charactor")
+    //  }
 
 
 
